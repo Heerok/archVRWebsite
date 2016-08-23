@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+
+    <h1>Enter your details</h1>
+	<form method = "post" action = "/welcome">
+		<b>Name:</b><input type = "text" name = "user[name]"><br>
+		<b>Address<input type = "text" name = "user[email]"><br>
+		<b>Date</b><input type = "password" name = "user[password]"><br>
+		<a type = "button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-flash"></span>SCHEDULE</a>
+		
+	</form>
+</body>
+</html>

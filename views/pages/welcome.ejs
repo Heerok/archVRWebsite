@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+
+    <script src="/public/jquery-1.8.0.js"></script>
+    <script src="/public/app.js"></script>
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="lang-logo">
+      <img src="/lang-logo.png">
+    </a>
+    <h1>Welcome</h1>
+    <p>Welcome to The Shack <%= user %> .Login to view your profile and connect to other shackers</p>
+    <a type="button" class="btn btn-lg btn-default" href="http://localhost:5000/profile"><span class="glyphicon glyphicon-flash"></span>Log In</a>
+  </div>
+</div>
+
+
+<div id = "chatlist">
+
+</div>
+
+
+</body>
+</html>

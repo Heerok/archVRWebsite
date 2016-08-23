@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+
+    <h1>Enter your username and password</h1>
+	<form method = "get" action = "/authenticate">
+		<b>e-mail<input type = "text" name = "email"><br>
+		<b>Password</b><input type = "password" name = "password"><br>
+		<input type = "submit" value = "login">
+		
+	</form>
+</body>
+</html>
