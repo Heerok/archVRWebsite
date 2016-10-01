@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+
+    <h1>Enter your details</h1>
+	<form method = "post" action = "/insert">
+		<b>Name:</b><input type = "text" name = "name" id=name><br>
+		<b>Address<input type = "text" name = "user[address]" id= address><br>
+		<b>Date</b><input type = "date" name = "user[date]" id = date><br>
+		<b>Email</b><input type = "text" name = "user[email]" id = email><br>
+		<input type = "submit" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-flash"></span>SCHEDULE</a>
+		
+	</form>
+</body>
+</html>
