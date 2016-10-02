@@ -62,20 +62,6 @@ h1 span {
    background: rgba(33, 29, 29, 0.3);
    padding: 10px; 
 }
-
-.red {
-color: #C11B17;
-font-weight: bold;
-}
-.green {
-color: green;
-font-weight: bold;
-}
-.blue {
-color: #0000A0;
-font-weight: bold;
-}
-
 </style>
 
 
@@ -84,8 +70,8 @@ font-weight: bold;
         <ul class="main-nav">
         	<li><a href="#header">Home</a></li>
             <li><a href="#service">Services</a></li>
-            <li class="small-logo"><a href="#header"><img src="img/Logo resized 2.png" alt=""></a></li>
-            <li><a href="#team">Arch VR</a></li>
+            <li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li>
+            <li><a href="#team">Team</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
@@ -93,81 +79,82 @@ font-weight: bold;
 </nav><!--main-nav-end-->
 
 
-<section class="main-section alabaster" id="service"><!--main-section-start-->
+<section class="main-section" id="service"><!--main-section-start-->
 	<div class="container">
-    	<h2 class="red">Services</h2><br><br>
-		
+    	<h2>Services</h2>
         <div class="row">
-        	<div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+        	<div class="col-lg-6 col-sm-8 wow fadeInLeft delay-05s">
             	<div class="service-list">
                 	<div class="service-list-col1">
                     	<i class="fa-home"></i>
                     </div>
                 	<div class="service-list-col2">
-                        <h3 class="blue">VR Pro</h3>
-                        <p>By downloading the app you can have a virtual reality experience. <br>Design yourself in our predefined layouts.</p>
+                        <h3>VR Pro</h3>
+                        <p>By downloading the app you can have a virtual reality experience. Design yourself in our predefined layouts.</p>
                     </div>
-                </div><br>
+                </div>
                 <div class="service-list">
                 	<div class="service-list-col1">
                     	<i class="fa-gear"></i>
                     </div>
                 	<div class="service-list-col2">
-                        <h3 class="blue">VR Plan</h3>
+                        <h3>VR Plan</h3>
                         <p>We create the design of your layout & you can have a virtual reality experience. Design yourself in the layout.</p>
                     </div>
-                </div><br>
+                </div>
                 <div class="service-list">
                 	<div class="service-list-col1">
                     	<i class="fa-cubes"></i>
                     </div>
                 	<div class="service-list-col2">
-                        <h3 class="blue">VR + Build</h3>
+                        <h3>VR + Build</h3>
                         <p>From design to VR experience to execution.</p>
                     </div>
                 </div>
-            </div>
-			<div class="col-lg-6 col-sm-6 wow fadeInRight delay-05s">
-				<div class="service-list">
+                <div class="service-list">
                 	<div class="service-list-col1">
                     	<i class="fa-crosshairs"></i>
                     </div>
                 	<div class="service-list-col2">
-                        <h3 class="blue">Build</h3>
+                        <h3>Build</h3>
                         <p>We build your space exactly like you want without VR.</p>
                     </div>
-                </div><br><br>
+                </div>
                 <div class="service-list">
                 	<div class="service-list-col1">
                     	<i class="fa-user"></i>
                     </div>
                 	<div class="service-list-col2">
-                        <h3 class="blue">Individual Services</h3>
+                        <h3>Individual Services</h3>
                         <p>We also provide individual services like painting, tall ceilings, carpentry, home automation.</p>
                     </div>
                 </div>
-			</div>
+            </div>
+            <figure class="col-lg-6 col-sm-4  text-right wow fadeInUp delay-02s">
+            	<img src="girl.jpg" alt="">
+            </figure>
+        
         </div>
 	</div>
 </section><!--main-section-end-->
 
 
 
-<section class="main-section "><!--main-section alabaster-start-->
+<section class="main-section alabaster"><!--main-section alabaster-start-->
 	<div class="container">
     	<div class="row">
-			<figure class="col-lg-5 col-sm-4  text-right wow fadeInUp delay-02s">
-            	<img src="girl.jpg" alt="">
+			<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
+            	<img  src="img/iphone.png" alt="">
             </figure>
-			<div class="col-lg-7 col-sm-8 featured-work">
-            	<h2 class="red">Why ArchVR</h2>
+        	<div class="col-lg-7 col-sm-8 featured-work">
+            	<h2>Why ArchVR</h2>
 				<br><br><br>
             	<div class="featured-box">
                 	<div class="featured-box-col1 wow fadeInRight delay-02s">
                     	<i class="fa-magic"></i>
                     </div>	
                 	<div class="featured-box-col2 wow delay-02s">
-                        <h4><p>Complete design + build solution.</p></h4>
+                        <p>Complete design + build solution.</p>
                     </div>    
                 </div>
                 <div class="featured-box">
@@ -175,7 +162,7 @@ font-weight: bold;
                     	<i class="fa-gift"></i>
                     </div>	
                 	<div class="featured-box-col2 wow fadeInRight delay-04s">
-                        <h4><p>We provide a project manager for interior design from start to end of project. </p></h4>
+                        <p>We provide a project manager for interior design from start to end of project. </p>
                     </div>    
                 </div>
                 <div class="featured-box">
@@ -183,7 +170,7 @@ font-weight: bold;
                     	<i class="fa-dashboard"></i>
                     </div>	
                 	<div class="featured-box-col2 wow fadeInRight delay-06s">
-                        <h4><p>On time + in budget project handover guarantee. </p></h4>
+                        <p>On time + in budget project handover guarantee. </p>
                     </div>
                 </div>
                 <a class="Learn-More" href="#">Learn More</a>
@@ -193,8 +180,8 @@ font-weight: bold;
 </section><!--main-section alabaster-end-->
 
 
-<section class="main-section team"><!--main-section team-start-->
-<!--	<div class="container">
+<section class="main-section team" id="team"><!--main-section team-start-->
+	<div class="container">
         <h2>team</h2>
         <h6>Take a closer look into our amazing team. We won’t bite.</h6>
         <div class="team-leader-block clearfix">
@@ -244,7 +231,7 @@ font-weight: bold;
                 <p class="wow fadeInDown delay-09s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
             </div>
         </div>
-    </div>-->
+    </div>
 </section><!--main-section team-end-->
 
 
@@ -261,15 +248,15 @@ font-weight: bold;
         	<div class="col-lg-6 col-sm-7 wow fadeInLeft">
             	<div class="contact-info-box address clearfix">
                 	<h3><i class=" icon-map-marker"></i>Address:</h3>
-                	<span>Old DLF Colony, Sector 14<br>Gurgaon, Haryana (122001). </span>
+                	<span>308 Negra Arroyo Lane<br>Albuquerque, New Mexico, 87111.</span>
                 </div>
                 <div class="contact-info-box phone clearfix">
                 	<h3><i class="fa-phone"></i>Phone:</h3>
-                	<span>+91-9435818964</span>
+                	<span>1-800-BOO-YAHH</span>
                 </div>
                 <div class="contact-info-box email clearfix">
                 	<h3><i class="fa-pencil"></i>email:</h3>
-                	<span>seemon.nits@gmail.com</span>
+                	<span>hello@knightstudios.com</span>
                 </div>
             	<div class="contact-info-box hours clearfix">
                 	<h3><i class="fa-clock-o"></i>Hours:</h3>
